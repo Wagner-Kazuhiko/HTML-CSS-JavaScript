@@ -1,0 +1,22 @@
+<meta charset="UTF-8">
+<script>
+
+	function pulaLinha() {
+		document.write("<br>");	
+	
+	}
+	
+	function mostra(geracao) {
+		document.write(geracao);
+		pulaLinha();	
+	
+	}
+	
+	var anoAtual = 2022;
+	var idadeBr = 1500;
+	var quantasGeracoes = (anoAtual - idadeBr)/28
+	
+	mostra("Se passaram " + (anoAtual - idadeBr) + " anos no Brasil." );
+	mostra("E já estamos na " + Math.round(quantasGeracoes) + "ª geração." )
+	
+</script>
